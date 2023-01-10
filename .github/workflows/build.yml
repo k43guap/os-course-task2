@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - master # or the name of your main branch
+      - markpolyak-patch-1
 jobs:
   build:
     name: Build
